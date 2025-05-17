@@ -1,0 +1,22 @@
+# Ignorar arquivos do sistema e IDEs
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignorar vendor do Composer (geralmente é melhor não versionar)
+vendor/
+
+# Ignorar arquivos de cache e sessão do PHP
+cache/
+*.cache
+*.sess
+
+# Ignorar arquivos de configuração locais (exemplo .env)
+.env
+
+# Ignorar arquivos Docker
+docker-compose.override.yml
+*.env.local
+
+# Ignorar diretórios do Docker
+mysql/
